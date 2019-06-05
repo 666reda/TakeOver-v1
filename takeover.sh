@@ -25,8 +25,9 @@ clear
 ban
 echo -e "\033[0;32m  @sulemanmalik_3                         		 v1\033[0m"
 bl
-echo "File Name:"
-read inp
+# the file to process is passed as an argument
+inp=$1
+echo 'Processing '$inp
 echo ''
 echo ''
 cot=0
